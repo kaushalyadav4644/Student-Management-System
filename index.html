@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Student Management System</h2>
+
+      <div class="form">
+        <input type="text" id="name" placeholder="Student Name" />
+        <input type="text" id="roll" placeholder="Roll Number" />
+        <input type="text" id="dept" placeholder="Department" />
+        <input type="number" id="marks" placeholder="Marks" />
+        <button onclick="addStudent()">Add Student</button>
+      </div>
+
+      <h3>All Students</h3>
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Department</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div class="search-box">
+        <input type="text" id="searchRoll" placeholder="Enter Roll Number" />
+        <button onclick="searchStudent()">Search</button>
+      </div>
+
+      <div id="searchResult"></div>
+
+      <button class="topper-btn" onclick="showTopper()">Show Topper</button>
+
+      <div id="topper"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.form input {
+  width: 22%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.search-box {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 40%;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: darkmagenta;
+}
+
+.topper-btn {
+  width: 100%;
+  padding: 12px;
+  background: green;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.topper-btn:hover {
+  background: darkgreen;
+}
+
+#searchResult,
+#topper {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e8ffe8;
+  border: 1px solid #8f8;
+  border-radius: 8px;
+}
